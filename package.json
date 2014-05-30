@@ -1,0 +1,21 @@
+{
+    "version": "0.0.1",
+    "name": "com.fortytwoloops.ViewportHeight",
+    "cordova_name": "ViewportHeight",
+    "description": "Cordova ViewportHeight Plugin",
+    "license": "MIT",
+    "keywords": [
+        "cordova",
+        "viewport",
+        "height"
+    ],
+    "platforms": [
+        "wp8"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.4.0"
+        }
+    ]
+}
