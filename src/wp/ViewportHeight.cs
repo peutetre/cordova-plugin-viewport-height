@@ -1,20 +1,5 @@
-using Microsoft.Phone.Shell;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Globalization;
-using System.Threading;
-using System.Windows;
-using System.Windows.Media;
-using System.Windows.Threading;
-
-using WPCordovaClassLib.Cordova;
-using WPCordovaClassLib.Cordova.Commands;
-using WPCordovaClassLib.Cordova.JSON;
-
 using Microsoft.Phone.Info;
-using Microsoft.Phone.Controls;
+using System.Windows;
 
 namespace WPCordovaClassLib.Cordova.Commands
 {
@@ -22,6 +7,7 @@ namespace WPCordovaClassLib.Cordova.Commands
     {
         public void get(string options)
         {
+            
             // http://developer.nokia.com/community/wiki/Setting_WebBrowser_control_viewport_dimensions
             // http://mail-archives.apache.org/mod_mbox/cordova-dev/201403.mbox/%3CCAKP6k2s=mgWtwLTD_h_2CTLss52VV81i4rdg8dxX4hSg0qp-yw@mail.gmail.com%3E
             string height = "";

@@ -15,3 +15,8 @@ Get the viewport height on Windows Phone
 - window.ViewportHeight.get(success:function, error:function):void
 
 get the viewport height as string
+
+## Notes
+
+http://developer.nokia.com/community/wiki/Setting_WebBrowser_control_viewport_dimensions
+http://mail-archives.apache.org/mod_mbox/cordova-dev/201403.mbox/%3CCAKP6k2s=mgWtwLTD_h_2CTLss52VV81i4rdg8dxX4hSg0qp-yw@mail.gmail.com%3E
